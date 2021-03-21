@@ -1,0 +1,22 @@
+{%extends "blog_fayllari/base.html"%}
+{% load embed_video_tags %}
+
+{%block kirish%}
+
+
+  {%for item in obj %}
+  
+  {%video item.video 'small'%}
+  
+
+
+  {%endfor%}
+  {%endblock kirish%}
+
+
+
+
+
+
+
+
